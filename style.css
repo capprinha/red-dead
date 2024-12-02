@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.696);
+    font-family: "Montserrat", serif;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.vermelho{
+    background-image: url(./wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position-x:20%;
+    background-position-y: 22%;
+
+}
+header{
+    width:1400px ;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+
+}
+header img{
+    width: 1300px;
+    padding: 300px 0px;
+    filter: drop-shadow(0px 20px 2px #2a2a2a);
+}
+header nav{
+    padding-bottom: 80px;
+}
+header nav a{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 6px;
+    filter: drop-shadow(0px 5px 1px #000000);
+}
+.sobre{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 200px;
+
+}
+.fundo{
+    background-image: url(./red2.jpg);
+    background-position-y: 70%;
+    background-position-x: 50%;
+}
+.sobre h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sobre-para{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 2%;
+    text-align: justify;
+    padding-bottom: 50px;
+    text-shadow: 0px 5px 2px #000000;
+}

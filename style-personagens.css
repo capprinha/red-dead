@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: fonte_red_dead;
+    src: url(./chinese\ rocks\ rg.ttf);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.696);
+    font-family: "fonte_red_dead";
+}
+.fundo-header{
+    background-image: url(./fotos/fundo-header-personagens.jpg);
+    background-repeat: no-repeat;
+    background-position-x:40%;
+    background-position-y: 60%;
+    box-shadow: inset 0px 0px 200px 50px #000;
+}
+header{
+    text-align: center;
+    font-size: 100px;
+    padding: 200px 0px;
+}
+header a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+}
+section{
+    padding: 100px 0px;
+}
+.arthur{
+    text-align: center;
+}
+.arthur h2{
+    font-size: 60px;
+    cursor: pointer;
+}
+#arthur-main{
+    display: none;
+}
+.arthur p{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.arthur audio{
+    width: 400px;
+    padding: 10px 0px;
+}
+.arthur h3{
+    font-size: 40px;
+}
+.arthur-conteudo{
+    display: grid;
+    grid-template-columns: repeat(2,48%);
+    column-gap: 2%;    
+    text-align: justify;
+}
+.arthur-conteudo p{
+    font-size: 30px;
+}
+.arthur-conteudo img{
+    height: 500px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.arthur-para{
+    text-align: justify;
+    font-size: 30px;
+}

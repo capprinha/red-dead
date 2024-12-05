@@ -42,33 +42,33 @@ section{
     background-position-x:25% ;
     
 }
-.arthur{
+
+.personagem{
     text-align: center;
     text-shadow: 0px 5px 4px #00000048;
 }
-.arthur h2{
+.personagem h2{
     font-size: 60px;
     cursor: pointer;
 }
 #arthur-main{
     display: none;
 }
-.arthur p{
+.personagem p{
     padding: 10px 0px;
     font-size: 30px;
 }
-
-.arthur-conteudo{
+.grid-conteudo{
     display: grid;
     grid-template-columns: repeat(2,48%);
     column-gap: 2%;    
     text-align: justify;
     padding-bottom: 50px;
 }
-.arthur-conteudo p{
+.grid-conteudo p{
     font-size: 30px;
 }
-.arthur-conteudo img{
+.grid-conteudo img{
     height: 500px;
     border-radius: 20px;
     border: solid 5px #000;
@@ -77,39 +77,34 @@ section{
 
 /* john */
 
-.john{
-    text-align: center;
-    text-shadow: 0px 5px 4px #00000048;
-}
 .john-fundo{
     background-image: url(./fotos/john-fundo.jpg);
     background-position-y:5% ;
 }
-.john h2{
-    font-size: 60px;
-    cursor: pointer;
-}
-.john p{
-    padding: 10px 0px;
-    font-size: 30px;
-}
 #john-main{
     display: none;
 }
-.john-conteudo{
-    display: grid;
-    grid-template-columns: repeat(2,48%);
-    column-gap: 2%;    
-    text-align: justify;
-    padding-bottom: 50px;
+
+/* dutch */
+
+.dutch-fundo{
+    background-image: url(./fotos/dutch-fundo.jpg);
+    background-position: 50% 6%;
+    background-repeat: no-repeat;
 }
-.john-conteudo p{
-    font-size: 30px;
-}
-.john-conteudo img{
-    height: 500px;
-    border-radius: 20px;
-    border: solid 5px #000;
-    margin: 0 5px;
+#dutch-main{
+    display: none;
 }
 
+/* sadie  */
+
+.sadie-fundo{
+    background-image: url(./fotos/sadie-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 5%;
+    background-size: 120%;
+}
+#sadie-main{
+    display: none;
+    color: #fff;
+}

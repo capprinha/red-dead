@@ -108,3 +108,25 @@ section{
     display: none;
     color: #fff;
 }
+
+/* hosea */
+
+.hosea-fundo{
+    background-image: url(./fotos/hosea-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position:50% 20%;
+}
+#hosea-main{
+    display: none;
+}
+
+/* javier */
+
+.javier-fundo{
+    background-image: url(./fotos/javier-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 30%;
+}
+#javier-main{
+    display: none;
+}

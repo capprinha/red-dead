@@ -42,4 +42,26 @@ $(document).ready(function(){
             scrollTop: destinoJohn.offset().top
         },1000);
     });
+
+    // hosea
+    $('#hosea-h2').click(function(){
+        $('#hosea-main').slideToggle()
+
+        const destinoJohn = $('#hosea-conteudo')
+        
+        $('html').animate({
+            scrollTop: destinoJohn.offset().top
+        },1000);
+    });
+
+    // javier
+    $('#javier-h2').click(function(){
+        $('#javier-main').slideToggle()
+
+        const destinoJohn = $('#javier-conteudo')
+        
+        $('html').animate({
+            scrollTop: destinoJohn.offset().top
+        },1000);
+    });
 });

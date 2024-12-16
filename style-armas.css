@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: fonte_red_dead;
+    src: url(./chinese\ rocks\ rg.ttf);
+}
+body{
+    font-family:fonte_red_dead; 
+}
+.header-fundo{
+    background-image: url(./fotos/javier-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
+}
+header{
+    text-align: center;
+    color: #fff;
+}
+header h1{
+    padding: 250px 0px;
+    font-size: 7em;
+}
+.d-inline{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 120px 0px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.nav{
+    padding-bottom: 50px;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 0px 10px;
+}
+.text-center{
+    text-align: center;
+    font-size: 3em;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+/* main */
+
+.fundo{
+    background-color: #000;
+}
+.grid-conteudo{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    column-gap: 3%;
+    color: #fff;
+}
+.grid-conteudo article h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+.grid-conteudo article img{
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.grid-conteudo article p{
+    text-align: justify;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}

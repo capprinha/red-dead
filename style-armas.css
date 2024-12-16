@@ -59,7 +59,7 @@ header h1{
 }
 .grid-conteudo{
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 22%);
     column-gap: 3%;
     color: #fff;
 }
